@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-track {
+  display: flex;
+}
+
+.slick-track .slick-slide {
+  display: flex;
+  height: auto;
+}
+
+
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  height: 100% !important;
+}

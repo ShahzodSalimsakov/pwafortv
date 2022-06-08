@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities .slick-list,
+.slick-track {
+  height: 100%;
+}
