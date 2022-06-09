@@ -24,7 +24,13 @@ export default function Home() {
           {
             id: 1,
             name: "gavayskiy",
-            price: "96000",
+            price: "100",
+            url: "https://api.choparpizza.uz/storage/products/2022/03/03/OtNBcIQZPzRggQgkXi28R0BpXs8Ce1HDpth3NfhT.webp"
+          },
+          {
+            id: 1,
+            name: "asdfadsfadsf adsf",
+            price: "100",
             url: "https://api.choparpizza.uz/storage/products/2022/03/03/OtNBcIQZPzRggQgkXi28R0BpXs8Ce1HDpth3NfhT.webp"
           },
         ],
@@ -60,7 +66,6 @@ export default function Home() {
     arrows: false,
     autoplay: false,
     autoPlaySpeed: 3000,
-    className: "overflow-hidden",
   };
   return (
     <Slider {...settings}>

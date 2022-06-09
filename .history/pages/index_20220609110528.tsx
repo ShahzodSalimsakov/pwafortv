@@ -23,9 +23,8 @@ export default function Home() {
         [
           {
             id: 1,
-            name: "gavayskiy",
-            price: "96000",
-            url: "https://api.choparpizza.uz/storage/products/2022/03/03/OtNBcIQZPzRggQgkXi28R0BpXs8Ce1HDpth3NfhT.webp"
+            name: "Пицца",
+            price: "100",
           },
         ],
         [
@@ -52,15 +51,14 @@ export default function Home() {
   })
 
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     autoPlaySpeed: 3000,
-    className: "overflow-hidden",
   };
   return (
     <Slider {...settings}>

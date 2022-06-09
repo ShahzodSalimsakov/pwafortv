@@ -22,10 +22,9 @@ export default function Home() {
       template_prods: [
         [
           {
-            id: 1,
+            id: 0,
             name: "gavayskiy",
-            price: "96000",
-            url: "https://api.choparpizza.uz/storage/products/2022/03/03/OtNBcIQZPzRggQgkXi28R0BpXs8Ce1HDpth3NfhT.webp"
+            price: "100",
           },
         ],
         [
@@ -58,9 +57,8 @@ export default function Home() {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     autoPlaySpeed: 3000,
-    className: "overflow-hidden",
   };
   return (
     <Slider {...settings}>

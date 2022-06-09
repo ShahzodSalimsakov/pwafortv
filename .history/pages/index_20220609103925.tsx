@@ -23,9 +23,9 @@ export default function Home() {
         [
           {
             id: 1,
-            name: "gavayskiy",
-            price: "96000",
-            url: "https://api.choparpizza.uz/storage/products/2022/03/03/OtNBcIQZPzRggQgkXi28R0BpXs8Ce1HDpth3NfhT.webp"
+            name: "Пицца",
+            price: "100",
+            url: "https://scontent.ftas2-2.fna.fbcdn.net/v/t39.30808-6/285609488_2135246046649989_8694009277665708482_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a26aad&_nc_ohc=a2ds2Ze1_JkAX8om5FA&_nc_ht=scontent.ftas2-2.fna&oh=00_AT9iBrgp0eNFSHxxYZipQKmrjYir2-VFx6yMslXuN4T8_g&oe=62A7341E"
           },
         ],
         [
@@ -52,15 +52,14 @@ export default function Home() {
   })
 
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     autoPlaySpeed: 3000,
-    className: "overflow-hidden",
   };
   return (
     <Slider {...settings}>
@@ -72,8 +71,7 @@ export default function Home() {
             </div>
           ) : (
             item.template_name ? (React.createElement(DynamicComponent[item.template_name], {
-              template_prods: item.template_prods,
-              background: items,
+              template_prods: item.template_prods
             })) : (<div></div>)
           )}
         </div>

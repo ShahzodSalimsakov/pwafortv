@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.slick-track {
+/* .slick-track {
   display: flex !important;
 }
 
 .slick-slide {
   height: auto !important;
-}
+} */

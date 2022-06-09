@@ -6,6 +6,7 @@
   display: flex !important;
 }
 
-.slick-slide {
-  height: auto !important;
+.slick-slide,
+.slick-track {
+  height: 200px !important;
 }

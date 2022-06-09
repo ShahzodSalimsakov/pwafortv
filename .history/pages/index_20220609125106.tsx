@@ -18,7 +18,7 @@ export default function Home() {
       title: "title 2",
       description: "description 2",
       template_name: "first",
-      url: "https://scontent.ftas2-2.fna.fbcdn.net/v/t39.30808-6/285609488_2135246046649989_8694009277665708482_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a26aad&_nc_ohc=a2ds2Ze1_JkAX8om5FA&_nc_ht=scontent.ftas2-2.fna&oh=00_AT9iBrgp0eNFSHxxYZipQKmrjYir2-VFx6yMslXuN4T8_g&oe=62A7341E",
+      url: "https://api.choparpizza.uz/storage/sliders/2021/10/01/eGWm7bffIfNXCmWNiogVj5mFL34i6loQ5OqbAGDP.webp",
       template_prods: [
         [
           {
@@ -60,7 +60,6 @@ export default function Home() {
     arrows: false,
     autoplay: false,
     autoPlaySpeed: 3000,
-    className: "overflow-hidden",
   };
   return (
     <Slider {...settings}>

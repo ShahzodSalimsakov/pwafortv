@@ -60,7 +60,6 @@ export default function Home() {
     arrows: false,
     autoplay: false,
     autoPlaySpeed: 3000,
-    className: "overflow-hidden",
   };
   return (
     <Slider {...settings}>

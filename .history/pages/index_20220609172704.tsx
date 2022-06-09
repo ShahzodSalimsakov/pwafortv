@@ -60,12 +60,11 @@ export default function Home() {
     arrows: false,
     autoplay: false,
     autoPlaySpeed: 3000,
-    className: "overflow-hidden",
   };
   return (
     <Slider {...settings}>
       {items.map((item) => (
-        <div key={item.id}>
+        <div key={item.id} className="overflow-y-hidden">
           {item.type === "image" ? (
             <div key={item.id}>
               <div className="bg-cover bg-no-repeat w-full h-screen" style={{ backgroundImage: `url("${item.url}")` }}></div>

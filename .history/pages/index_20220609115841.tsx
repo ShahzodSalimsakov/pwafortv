@@ -24,8 +24,7 @@ export default function Home() {
           {
             id: 1,
             name: "gavayskiy",
-            price: "96000",
-            url: "https://api.choparpizza.uz/storage/products/2022/03/03/OtNBcIQZPzRggQgkXi28R0BpXs8Ce1HDpth3NfhT.webp"
+            price: "100",
           },
         ],
         [
@@ -60,7 +59,6 @@ export default function Home() {
     arrows: false,
     autoplay: false,
     autoPlaySpeed: 3000,
-    className: "overflow-hidden",
   };
   return (
     <Slider {...settings}>
